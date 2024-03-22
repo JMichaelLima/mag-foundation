@@ -72,7 +72,7 @@ export default function Home() {
             <button
               className="mt-4 bg-green-600 text-white py-2 m-4 px-4 rounded"
               onClick={() =>
-                addToast({ messageType: "success", message: "Success!" })
+                addToast({ messageType: "success", message: "Success! See app/page.tsx for addToast() example use." })
               }
             >
               Show Success Toast
@@ -81,7 +81,7 @@ export default function Home() {
             <button
               className="mt-4 bg-red-700 text-white py-2 m-4 px-4 rounded"
               onClick={() =>
-                addToast({ messageType: "error", message: "Error!" })
+                addToast({ messageType: "error", message: "Error! See app/page.tsx for addToast() example use." })
               }
             >
               Show Error Toast

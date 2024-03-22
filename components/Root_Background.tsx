@@ -28,6 +28,7 @@ const images = [
 
 export default function RootBackground() {
   const [currentImage, setCurrentImage] = useState(0);
+  console.log("currentImage", currentImage);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -55,6 +56,7 @@ export default function RootBackground() {
             style={{
               objectFit: "cover",
               //opacity: 0.8
+            
             }}
           />
         </motion.div>
